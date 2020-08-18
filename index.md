@@ -1,33 +1,68 @@
 ---
 layout: lesson
-authors: Marc Galland, Tijs Bliek, Ken Kraaijeveld
+authors: Marc Galland
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
 ## Welcome!
 
-In this training you will learn the basics of a typical RNA-Sequencing experiment. It is going to be fun and empowering! You will discover how total RNA are converted to short sequences called "reads" that can in turn be used to get insights into gene expression. Through careful experimental design, these gene expression information can yield new research avenues and answer crucial questions. 
+In this training you will learn the basics of good Research Data Management. A lesson on Research Data Management the Carpentries way (2 days, lesson template, etc.)
 
-We will use mostly R and its companion RStudio to perform our RNA-Seq analyses and visualisations. 
+We will use the Shell, Python and some specific Python packages  Make sure you have completed the Setup section. 
 
-Depending on the level of participants, the bioinformatic part might be performed (QC of fastq files, genome alignment, counting, etc.)
 
-Before you begin, be sure you are all set up (see below). For complete information, see the Setup section. 
+## Global aim
+Raise awareness of what is RDM and how it can be implemented in one researcher's daily work.
 
-We will use mostly R and its companion RStudio to perform our RNA-Seq analyses and visualisations. 
+## Target audience
+- Early and late career Researchers: Interns, PhDs, Postdocs, Principal Investigators.
+- Bachelor and Master students.
 
-Depending on the level of participants, the bioinformatic part might be performed (QC of fastq files, genome alignment, counting, etc.)  
+## Learning objectives
 
-This lesson will introduce you to the basics of gene expression analysis using RNA-Seq (short for RNA sequencing). Due to the considerable progress and constant decreasing costs of RNA-Seq, this technique has became a standard
+__1. File management__
+  - File naming
+  - Project file organisation
+  - Data sharing
+  - Archiving
+  - Data Security
+  
+__2. Metadata__
+  - Dublin Core
+  - Domain-specific templates
 
-## Main learning objectives
-- Identify good practices when designing a RNA-Seq experiment.
-- Memorize the steps of a complete RNA-Seq experiment: from sequencing to analysis.
-- Perform a QC of your experiment through Principal Component Analysis (PCA) and sample clustering. 
-- Execute a differential gene expression analysis using R and the `DESeq2` package.  
-- Be able to create key plots: volcano plot, heatmap and clustering of differentially expressed genes.  
-- Provide a biological interpretation to differentially expressed genes through ORA/GSEA analyses and data integration.
+__3. Ontologies__
+
+__4. Archiving__:
+  - Repositories: Zenodo, FigShare, etc.
+  - Domain-specific repositories: NCBI SRA, MetaboLights, etc.
+  
+__5. The FAIR principles in action__
+
+- _Findable_:
+    * F1. (Meta)data are assigned a globally unique and persistent identifier
+    * F2. Data are described with rich metadata (defined by R1 below)
+    * F3. Metadata clearly and explicitly include the identifier of the data they describe
+    * F4. (Meta)data are registered or indexed in a searchable resource
+- _Accessible_:
+    * A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
+        - A1.1 The protocol is open, free, and universally implementable
+        - A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+        - A2. Metadata are accessible, even when the data are no longer available
+- _Interoperable_: 
+    * I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+    * I2. (Meta)data use vocabularies that follow FAIR principles.
+    * I3. (Meta)data include qualified references to other (meta)data
+- _Reusable_: 
+    * R1. (Meta)data are richly described with a plurality of accurate and relevant attributes
+        - R1.1. (Meta)data are released with a clear and accessible data usage license
+        - R1.2. (Meta)data are associated with detailed provenance
+        - R1.3. (Meta)data meet domain-relevant community standards
+
+## Useful links
+https://site.uit.no/rdmtraining/course-info/?lang=en
+
 
 > ## Before you start
 >
@@ -39,16 +74,14 @@ This lesson will introduce you to the basics of gene expression analysis using R
 > More instructions are available on the workshop website in the **Setup** section.
 {: .prereq}
 
-{% include links.md %}
 
 ## Citation
 If you make use of this material in some way (teaching, vocational training, research), please cite us:
-"Bliek Tijs, Frans van der Kloet and Marc Galland" (eds): "RNA-seq lesson."  Version 2020.04.
-https://github.com/ScienceParkStudyGroup/rnaseq-lesson
+"Marc Galland" (eds): "RNA-seq lesson."  Version 2020.09.
 
 ## Credits
-This lesson is heavily based on teaching materials from the [Harvard Chan Bioinformatics Core (HBC) in-depth NGS data analysis course](https://hbctraining.github.io/In-depth-NGS-Data-Analysis-Course/). Materials have been adapted and some exercises created to comply with the [Carpentries Foundation teaching requirements](https://carpentries.github.io/instructor-training/).
 
+{% include links.md %}
 
 ----
 
