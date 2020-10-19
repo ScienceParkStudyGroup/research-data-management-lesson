@@ -37,7 +37,7 @@ The tools used for uploading/accessing/transferring are common for both data pro
 Some differ depending on operating systems.
 
 
-##Key Points
+## Key Points
 If working from home, ensure UvA VPN connection is on before attempting to connect to Genseq or Crunchomics
 
 #### _Windows_
