@@ -86,9 +86,17 @@ Cyberduck is the recommended GUI for file transfer with the Data Archive. See th
 
 ## Transferring data
 ### Using command line
+####Between your machine and a server
+
+####Between servers
 
 
-
+####TO and From SURF
+<ADD INFO WHEN SOLVED>
+~~~
+rsync 
+~~~
+{: .language-r}
 ### Using a GUI
 
 
@@ -126,7 +134,7 @@ You typically need a job file which essentially is a list of the (shell) command
 #
 #SBATCH --ntasks=1
 #SBATCH --time=10:00
-#SBATCH --mem-per-cpu=100
+#SBATCH --mem-per-cpu=1000
 #
 
 command -options -file -arguments -etc.
