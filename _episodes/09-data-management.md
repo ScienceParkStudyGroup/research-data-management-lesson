@@ -36,6 +36,10 @@ The tools used for uploading/accessing/transferring are common for both data pro
 
 Some differ depending on operating systems.
 
+
+##Key Points
+If working from home, ensure UvA VPN connection is on before attempting to connect to Genseq or Crunchomics
+
 #### _Windows_
   - _SSH client_ [Mobaxterm](https://mobaxterm.mobatek.net/download.html) is recommended if you don't already have a preferred method.
   - To use a windows 10 machine as if it were linux: _Windows subsystem for linux (WSL)_ - details on setting this up can be found [here](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10). _THIS IS NOT A NECESSARY STEP_. The above can be used instead.
@@ -83,19 +87,26 @@ Cyberduck is the recommended GUI for file transfer with the Data Archive. See th
 
 ## Transferring data
 ### Using command line
-###_Between your machine and a server_
+#### _Between your machine and a server_
 
-###_Between servers_
+#### _Between servers_
 
 
-###_TO and From the archive_
-<ADD INFO WHEN SOLVED>
+#### _TO and From the archive_
+
 ~~~
 rsync 
 ~~~
 {: .language-r}
 
 ### Using a GUI
+
+Use Cyberduck or filezilla.
+
+For Filezilla just add in the `Host:` box `sftp://omics-h0.science.uva.nl`. Also enter your password and username in the other boxes at the top of the page, as well as `22` in the `port:` box. When promtpted with `Unkown Host Key` click OK. You should now be connected.
+
+The left panel is your file system of your own machine. On the right is your file system of the server to which you are connected.
+
 When using the GUI for file transfer between the servers be sure to open two separate windows with separate connections.
 
 
