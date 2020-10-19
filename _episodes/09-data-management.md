@@ -28,8 +28,7 @@ keypoints:
     - How does the current high performance compute environment (HPCe) job system work?
     
 2. **Where to store data to be archived**
-    - What is a tape archiving system?
-    - How can I store my data on tape?
+    - How can I backup my data?
 
 ## Tools To Connect
 
@@ -86,21 +85,19 @@ Cyberduck is the recommended GUI for file transfer with the Data Archive. See th
 
 ## Transferring data
 ### Using command line
-####Between your machine and a server
+###_Between your machine and a server_
 
-####Between servers
+###_Between servers_
 
 
-####TO and From SURF
+###_TO and From the archive_
 <ADD INFO WHEN SOLVED>
 ~~~
 rsync 
 ~~~
 {: .language-r}
+
 ### Using a GUI
-
-
-
 When using the GUI for file transfer between the servers be sure to open two separate windows with separate connections.
 
 
