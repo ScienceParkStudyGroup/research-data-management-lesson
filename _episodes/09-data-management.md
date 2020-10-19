@@ -1,7 +1,5 @@
 ---
 title: "Data Management"
-teaching: 30
-exercises: 30
 questions:
 - "What can I learn by following this data management tutorial?"
 - "What are the tools that I will be using?"
