@@ -95,9 +95,9 @@ Cyberduck is the recommended GUI for file transfer with the Data Archive. See th
 #### _TO and From the archive_
 
 ~~~
-rsync 
+rsync    ??? To be completed following offer from SURF
 ~~~
-{: .language-r}
+{: .language-shell}
 
 ### Using a GUI
 
