@@ -159,7 +159,7 @@ sbatch jobfile.sh
 ~~~
 {: .language-shell}
 
-Importantly you should calculate an estimation of how long your job will take on a certain number of nodes. This needs to be included in your jobfile. The above example specifies one CPU for 10 minutes and 100MB of RAM. 
+Importantly you should calculate an estimation of how long your job will take on a certain number of nodes. This needs to be included in your jobfile. The above example specifies one CPU for 10 minutes and 100MB of RAM. See [here](https://www.tchpc.tcd.ie/node/906) for how to estimate job time.
 
 This is of course a very small amount of processing power and time. For the moment there are no limits set by Crunchomics on power and time, apart from the limits of the system. These are: 64 CPUS (or cores) and 512GB of memory. However it is recommended to use a maximum of 8 cores for your jobs. This is because not all parallel processes scale linearly. For example: alignment using hisat2 on 32 cores is not 4 times faster than on 8 cores. The less cores you specify for your job means that it is likely to start quicker - more likely that 8 cores will be freed up than 32!
 
