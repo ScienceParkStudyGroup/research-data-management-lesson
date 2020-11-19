@@ -5,11 +5,14 @@ questions:
 - "What are the tools that I will be using?"
 objectives:
 - "Find out where to process large datasets and store research-data."
-- "Find out how to store data to be archived."
+- "Find out how to store data to be archived (and backed up)."
+
 keypoints:
 - Genseq will be offline as of Januray 1st 2021. Be sure to transfer all data over to Crunchomics or the data archive before then!
 
 ---
+
+
 
 ## Table of Contents
 1. [Overview](#overview)
