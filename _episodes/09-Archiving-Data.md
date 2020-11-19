@@ -1,11 +1,11 @@
 ---
-title: "Data Management"
+title: "Archiving Data"
 questions:
-- "What can I learn by following this data management tutorial?"
+- "What can I learn by following this data archive tutorial?"
 - "What are the tools that I will be using?"
 objectives:
-- "Find out where to process large datasets and store research-data."
-- "Find out how to store data to be archived (and backed up)."
+- "Connect to SURF data archive."
+- "Transfer data between your local machine and the archive."
 
 keypoints:
 - Genseq will be offline as of Januray 1st 2021. Be sure to transfer all data over to Crunchomics or the data archive before then!
@@ -30,6 +30,12 @@ keypoints:
     
 2. **Where to store data to be archived**
     - How can I backup my data?
+
+
+
+## Intro 
+
+
 
 ## Tools To Connect
 
