@@ -28,7 +28,7 @@ Storing data on various hard drives scattered around the university/at home is n
 
 Data stored on the archive is stored in two physical locations. This is much more secure, and can be accessed from any machine with an internet connection plus login credentials.  
 
-<img src="../img/SURF_Security.jpg" width="500px">
+<img src="../img/SURF_Security.jpg" width="500px" height="500px">
 
 ## What you will learn
 
@@ -38,7 +38,7 @@ Data stored on the archive is stored in two physical locations. This is much mor
     - How can I store my data on tape?
     
     
-<img src="../img/SURF_tape.jpg" width="500px">    
+<img src="../img/SURF_tape.jpg" width="500px" height="500px">    
 
 
 
