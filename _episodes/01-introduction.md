@@ -3,65 +3,102 @@ title: "Introduction"
 teaching: 30
 exercises: 0
 questions:
-- "What can I learn by doing this RNA-Seq lesson?"
-- "What are the tools that I will be using?"
-- "What are the tidy data principles?"
-- "What is working in a more open way beneficial?"
+- "What is the Research Data Life Cycle?"
+- "What are the main steps of this Research Data Life Cycle?"
+- "How do you define Research Data Management?"
+- "What are the main concepts that I will learn during this workshop?"
+- "How will it help me to make my research more accessible and reproducible for me and others?"
+- "Where can I get some help at my local institution?"
 objectives:
-- "Discover in what consists a typical RNA-Seq experiment."
-- "Know what results a RNA-Seq experiment can (and cannot) yield."
+- "Be capable of listing the main steps of the Research Data Life Cycle:  ."
+- ""
 keypoints:
-- "An RNA-Seq experiment is also a normal experiment (control, treated, replication, etc.)."
-- A canonical RNA-Seq experiment consists in RNA library preparation followed by bioinformatic analyses."
-- "RNA-Seq yields a snapshot of individual gene expression levels (count table)."
-- "Upon completion of the bioinformatic steps, the analysis of RNA-Seq results can be done using the DESeq2 R package."
+- "Research Data are generated once but can be re-used extensively."
+- "Research Data Management encompass the whole Research Data Life Cycle."
 ---
 
-## Table of Contents
-1. [Overview](#overview)
-2. [What you will learn](#what-you-will-learn)
-3. [Dataset used](#dataset-used)
+# Table of Contents
+
+<!-- MarkdownTOC autolink="True" -->
+
+- [Prerequisites and lesson objectives](#prerequisites-and-lesson-objectives)
+    - [What you will learn in this lesson](#what-you-will-learn-in-this-lesson)
+- [What are research data?](#what-are-research-data)
+    - [Exercise](#exercise)
+- [The Research Data Life Cycle](#the-research-data-life-cycle)
+    - [As a picture](#as-a-picture)
+    - [As a small movie \(5min\)](#as-a-small-movie-5min)
+- [Research Data Management](#research-data-management)
+    - [Credits](#credits)
+
+<!-- /MarkdownTOC -->
 
 
-## What you will learn
+# Prerequisites and lesson objectives
 
-1. **What are the important things to know before doing an RNA-Seq experiment** 
-    - When should you perform a RNA-Seq experiment?  
-    - RNA-Seq experiments have to comply with good experimental design practices just like any experiment.
+> ## Prerequisite
+> Although not strictly required, a basic command of the Shell will help you to follow some episodes on data archiving for instance. 
+> You can self-study the [Software Carpentry Unix Shell](http://swcarpentry.github.io/shell-novice/) lesson to fill this knowledge gap.
+{: .prereq}
+
+
+## What you will learn in this lesson
+
+1. **How do you define the Research Data Life Cycle?** 
+    - What are the main steps ?  
+    - What can I do to preserve and reuse my research data?.
     - What are biological replicates and why are they important?
-2. **How can I assess the quality of my RNA-Seq sequencing results?**
-    - FastQC.
-    - PCA plot.
-    - Sample clustering.
-3. **How do I perform a differential expression analysis on RNA-Seq results using R?**
-    - Raw and scaled counts: why do you need to scale counts between samples?
-    - What are the gene expression units I need to know: RPKM, FPKM, TPM.
-    - What are robust scaling/normalisation methods?
-    - How does the DESeq method works?
-4. **What are the plots that I can make from the differential analysis results?**
-    - Heatmap coupled with gene and sample clustering.
-    - Volcano plot.
+1. **What concepts and practices are comprised in Research Data Management?** 
+    - What is the life cycle of a research dataset?  
+    - What can I do to preserve and reuse my research data?.
+    - What are biological replicates and why are they important?
+1. **Why should you care about Research Data Management in general?**
+    - Protect your valuable datasets for you, your team, other scientits and society in general.
+    - Funders care
+    -  
 
-## Dataset used 
-
-We will make use of a published experimental dataset from a study made on the small model plant _Arabidopsis thaliana_ by [Vogel et al. (2016)](https://doi.org/10.1111/nph.14036). This study compares the response of 4 weeks old plantlets to different bacteria that live on the leaves of different plant species:
-- A known foliar pathogen called _Pseudomonas syringae_ strain DC3000. 
-- A commensal ("neutral") bacteria called _Methylobacterium extorquens_ strain PA1.
-- A commensal ("neutral") bacteria called _Sphingomonas melonis_ strain Fr1. 
-
-<img src="../img/experimental_design.png" width="600px" alt="experimental design" >
+# What are research data? 
 
 
-The original sequencing files can be found on the [Array Express database of the European Bioinformatic Institute](https://www.ebi.ac.uk/arrayexpress) by searching for the dataset accession number __E‐MTAB‐4683__.
+> ## Discussion
+> Pair up with someone in the workshop and try to define potential research data that you know.  
+{: .discussion}
+
+## Exercise
+> From this list of items, can you choose which one are research data and why?
+> 1. An article from a newspaper. 
+> 2. An image taken from Wikipedia. 
+> 3. Humidity level collected automatically by a hygrometer. 
+> 4. Microscopy pictures taken by a scientist. 
+> > ## Solution
+> > FIXME
+> {: .solution}
+{: .challenge}  
+
+# The Research Data Life Cycle
+
+Every piece of research 
+
+## As a picture
+
+In this scheme, you can find the main steps 
+
+<img src="../images/01_RDM_Lifecycle.png" width="800px" alt="Research Data Life Cycle" >
+
+## As a small movie (5min)
+The University of Ghent 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OL_Vd9dd-AQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# Research Data Management
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bbsLmy3Njv4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Credits
 
-### Dataset
-The original RNA-Seq dataset used comes from Vogel et al. 2016:  https://doi.org/10.1111/nph.14036.  
-
-### Teaching materials
-This lesson has been formatted according to the [Carpentries Foundation](https://carpentries.org/) lesson template and following their recommendations on how to teach researchers good practices in programming and data analysis.   
-
-This material builds from a lot of fantastic materials developed by others in the open data science community. Most of the content derives from the [Harvard Chan Bioinformatics Core](https://github.com/hbctraining) which are greatly acknowledge for the quality of their teaching materials.
+- University of Amsterdam (NL) [Research Data Management resource](https://rdm.uva.nl/en/introduction/rdm-introduction.html).
+- University of Ghent (BE) Data Stewards [Youtube channel](https://www.youtube.com/channel/UCYKOuXl0zNJ9QHt-HrlpZmg).
 
 {% include links.md %}

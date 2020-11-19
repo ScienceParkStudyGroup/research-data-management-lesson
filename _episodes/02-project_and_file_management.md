@@ -1,20 +1,15 @@
 ---
-title: "Project management"
+title: "Project and file management"
 teaching: 30
 exercises: 0
 questions:
-- "What can I learn by doing this RNA-Seq lesson?"
-- "What are the tools that I will be using?"
-- "What are the tidy data principles?"
-- "What is working in a more open way beneficial?"
+- "How can I properly organise my folder during my research project?"
+- "Are there any good consistent way to name files?"
 objectives:
-- "Discover in what consists a typical RNA-Seq experiment."
-- "Know what results a RNA-Seq experiment can (and cannot) yield."
+- ""
+- ""
 keypoints:
-- "An RNA-Seq experiment is also a normal experiment (control, treated, replication, etc.)."
-- A canonical RNA-Seq experiment consists in RNA library preparation followed by bioinformatic analyses."
-- "RNA-Seq yields a snapshot of individual gene expression levels (count table)."
-- "Upon completion of the bioinformatic steps, the analysis of RNA-Seq results can be done using the DESeq2 R package."
+- "."
 ---
 
 ## Table of Contents

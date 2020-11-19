@@ -7,31 +7,22 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 ## Welcome!
 
-In this training you will learn the basics of good Research Data Management. A lesson on Research Data Management the Carpentries way (2 days, lesson template, etc.)
+In this training you will learn the basics of Research Data Management (RDM). A data avalanche has now hit experimental sciences and requires new technical skills especially for scientists for which RDM is not currently part of the initial education. This lesson should help you to understand the main concepts and good practices related to Research Data Management. Eventually, you will be able to implement these good RDM practices into your daily research work which will pave the way to a more Open Science in general.
 
-We will use the Shell, Python and some specific Python packages  Make sure you have completed the Setup section. 
+This lesson is primarily developed for students and employees at the University of Amsterdam (UvA, The Netherlands). While some sections might be specific to the UvA, most of these lesson materials should be useful to a broader audience.  
 
-
-## Global aim
-Raise awareness of what is RDM and how it can be implemented in one researcher's daily work.
-
-## Target audience
-- Early and late career Researchers: Interns, PhDs, Postdocs, Principal Investigators.
-- Bachelor and Master students.
 
 ## Episode list
 
-__1. Introduction: the Research Life Cycle__
-__2. Project and file management__ 
-__3. Data about the data: metadata__
-__4. Controlled vocabularies and ontologies__
-__5. Archiving data__:
-__6. The FAIR principles in action__
+* __1. Introduction: the Research Life Cycle__
+* __2. Project and file management__ 
+* __3. Data about the data: metadata__
+* __4. Controlled vocabularies and ontologies__
+* __5. Archiving data__:
+* __6. The FAIR principles in action__
+* __10. Licensing and citing data__
 
-
-## Useful links
-https://site.uit.no/rdmtraining/course-info/?lang=en
-
+<br>
 
 > ## Before you start
 >
@@ -46,9 +37,15 @@ https://site.uit.no/rdmtraining/course-info/?lang=en
 
 ## Citation
 If you make use of this material in some way (teaching, vocational training, research), please cite us:
-"Marc Galland" (eds): "RNA-seq lesson."  Version 2020.09.
+"Fredericke White and Marc Galland" (eds): "Research Data Management."  Version 2020.12.
 
 ## Credits
+This lesson builds on many different resources from the University of Amsterdam or around the Internet. We are grateful to people active on Research Data Management and hope they can in turn build upon our own efforts. 
+
+- University of Amsterdam [Research Data Management website](https://rdm.uva.nl/en/introduction/rdm-introduction.html).
+- Arctic University of Norway (Tromso) [Research Data Management website](https://site.uit.no/rdmtraining/course-info/?lang=en).
+- The European Open Science Cloud [catalogue of RDM training and support resources](https://eosc-pillar.d4science.org/web/eoscpillartrainingandsupport/catalogue).
+- The [Open Science Training Handbook](https://book.fosteropenscience.eu/en/).
 
 {% include links.md %}
 

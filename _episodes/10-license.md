@@ -1,27 +1,25 @@
 ---
-title: "The FAIR principles"
+title: "Licenses: Who can use my data?"
 teaching: 60	
 exercises: 30 
 questions:
-- "How are gene expression levels distributed within a RNA-seq experiment?"
-- "Why do I need to scale/normalize read counts?"
-- "How do I know that my RNA-seq experiment has worked according to my experimental design?"
-- "How informative is PCA and sample clustering for RNA-seq quality checks?"
+- ""
+- ""
+- ""
+- ""
 objectives:
-- "Be able to calculate size factors and normalize counts using `DESeq2`."
-- "Be able to create PCA and sample clustering plots to explore RNA-seq count results."
-- "Be able to interpret a PCA plot and discuss its relationship with the experimental design."
+- "O1."
+- "O2."
+- "O3."
 keypoints:
-- "Several biaises including sequencing depth can result in analysis artifacts and must be corrected trough scaling/normalisation."
-- "RNA-seq results in a multivariate output that can be explored through data reduction methods (e.g. PCA)."
-- "Sample clustering and PCA should indicate whether the observed experimental variability can be explained by the experimental design."
+- "K1."
 ---
 
 # Table of contents
 <!-- MarkdownTOC autolink="True" levels="1,2" -->
 
 - [FAIR definitions](#fair-definitions)
-	- [Detailed defintions](#detailed-defintions)
+    - [Detailed defintions](#detailed-defintions)
 
 <!-- /MarkdownTOC -->
 
