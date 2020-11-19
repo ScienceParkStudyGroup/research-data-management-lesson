@@ -45,7 +45,7 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 
 
 ## Writing math symbols and formulas
-Sometimes, you need to render mathematical formula etc. GitHub pages which is using Jekyll to render html pages makes use of [MathJax])https://www.mathjax.org/). 
+Sometimes, you need to render mathematical formula etc. GitHub pages which is using Jekyll to render html pages makes use of [MathJax](https://www.mathjax.org/). 
 
 Visit the official website and consult [this thread](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) for quick ways to render math symbols.
 
