@@ -79,6 +79,8 @@ ssh -X USER@archive.surfsara.nl
 {: .language-shell}
 
 
+### With Mobaxterm
+
 
 ### Using a GUI
 Cyberduck is the recommended GUI for file transfer with the Data Archive. See the [Cyberduck website](https://cyberduck.io/) for more information. Or for some [tips from SURF](https://userinfo.surfsara.nl/systems/shared/archiving-high-performance).
