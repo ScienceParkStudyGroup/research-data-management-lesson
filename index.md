@@ -7,10 +7,14 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 ## Welcome!
 
-In this training you will learn the basics of Research Data Management (RDM). A data avalanche has now hit experimental sciences and requires new technical skills especially for scientists for which RDM is not currently part of the initial education. This lesson should help you to understand the main concepts and good practices related to Research Data Management. Eventually, you will be able to implement these good RDM practices into your daily research work which will pave the way to a more Open Science in general.
+In this training you will learn the basics of __Research Data Management (RDM)__. A data avalanche has now hit experimental sciences and requires new technical skills especially for scientists for which RDM is not currently part of the initial education. Furthermore, funding requirements and institutions alike are moving towards a more Open Science in which Open Data plays a key role. 
 
-This lesson is primarily developed for students and employees at the University of Amsterdam (UvA, The Netherlands). While some sections might be specific to the UvA, most of these lesson materials should be useful to a broader audience.  
 
+This lesson should help you to understand the main concepts and good practices related to Research Data Management. Eventually, you will be able to implement these good RDM practices into your daily research work which will pave the way to a more Open Science in general.
+
+This lesson is primarily developed for students and employees at the University of Amsterdam (UvA, The Netherlands) from the Life Sciences. While some sections might be specific to the UvA, be domain-specific (e.g. biology) or not directly applicable to your research, most of these lesson materials should be useful to a broader audience.  
+
+Finally, these RDM knowledge and practice can lead you to a new emerging profession called "Data Steward". Combining domain-specific knowledge with skills in RDM and programming can nurture your career development. 
 
 ## Episode list
 
@@ -20,6 +24,7 @@ This lesson is primarily developed for students and employees at the University 
 * __4. Controlled vocabularies and ontologies__
 * __5. Archiving data__:
 * __6. The FAIR principles in action__
+* __7. Data management plans__ 
 * __10. Licensing and citing data__
 
 <br>
@@ -31,9 +36,9 @@ This lesson is primarily developed for students and employees at the University 
 > 1. Consult what you need to do in the lesson [Setup](https://scienceparkstudygroup.github.io/rna-seq-lesson/setup.html).
 > 2. Read the workshop [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html) to make sure this workshop stays welcoming for everybody.
 > 3. Get comfortable: if you're not in a physical workshop, be set up with two screens if possible. You will be following along in RStudio on your own computer while also following this tutorial on your own.
+> 4. Although not strictly required, a basic command of the Shell will help you to follow some episodes on data archiving for instance. You can self-study the [Software Carpentry Unix Shell](http://swcarpentry.github.io/shell-novice/) lesson to fill this knowledge gap.
 > More instructions are available on the workshop website in the **Setup** section.
 {: .prereq}
-
 
 ## Citation
 If you make use of this material in some way (teaching, vocational training, research), please cite us:
@@ -46,7 +51,7 @@ This lesson builds on many different resources from the University of Amsterdam 
 - Arctic University of Norway (Tromso) [Research Data Management website](https://site.uit.no/rdmtraining/course-info/?lang=en).
 - The European Open Science Cloud [catalogue of RDM training and support resources](https://eosc-pillar.d4science.org/web/eoscpillartrainingandsupport/catalogue).
 - The [Open Science Training Handbook](https://book.fosteropenscience.eu/en/).
-
+- [University of Utrecht, Bioinformatics Center RDM section](https://ubc.uu.nl/infrastructure/data-stewardship/).
 {% include links.md %}
 
 ----
