@@ -28,17 +28,17 @@ Storing data on various hard drives scattered around the university/at home is n
 
 Data stored on the archive is stored in two physical locations. This is much more secure, and can be accessed from any machine with an internet connection plus login credentials.  
 
-<img src="../img/SURF_Security.jpg" width="400px" height="500px">
+<img src="../img/SURF_Security.jpg" width="300px" height="400px">
 
 ## What you will learn
 
-**Where to store data to be archived:**
+**Where to store data to be archived**
 
-    - What is a tape archiving system?
-    - How can I store my data on tape?
+- What is a tape archiving system?
+- How can I store my data on tape?
     
     
-<img src="../img/SURF_tape.jpg" width="500px" height="500px">    
+<img src="../img/SURF_tape.jpg" width="400px" height="400px">    
 
 
 
@@ -48,10 +48,11 @@ Data stored on the archive is stored in two physical locations. This is much mor
 The tools used for uploading/accessing/transferring are common for both data processing and managing archive data. 
 
 
-
 Some differ depending on operating systems.
 
-Files can be transferred across the data processing/archiving systems using a GUI filemanager like [Cyberduck](https://cyberduck.io/).
+#### _GUI_
+
+Files can be transferred across the data processing/archiving systems using a GUI filemanager like [Cyberduck](https://cyberduck.io/) or [filezilla](https://filezilla-project.org/).
 
 
 
@@ -67,12 +68,25 @@ Files can be transferred across the data processing/archiving systems using a GU
 
 
 
-
-
-
 ## Connecting 
-### Using command line
-Open up preferred method for ssh connection and type the following:
+
+### Using a GUI
+Cyberduck is the recommended GUI for file transfer with the Data Archive. See the [Cyberduck website](https://cyberduck.io/) for more information. Or for some [tips from SURF](https://userinfo.surfsara.nl/systems/shared/archiving-high-performance).
+
+
+<img src="../img/Cyberduck_Connect.png" width="600px" height="400px">
+
+
+### Using command line/ssh client
+
+If using an ssh client on windows then you can input the required details to connect similarly to the GUI option.
+
+<img src="../img/Mobaxterm_Connect.png" width="700px" height="450px">
+
+
+
+
+Otherwise open up preferred method for ssh connection and type the following:
 
 
 ~~~
@@ -81,13 +95,13 @@ ssh USER@archive.surfsara.nl
 {: .language-shell}
 
 
-
-### Using a GUI
-Cyberduck is the recommended GUI for file transfer with the Data Archive. See the [Cyberduck website](https://cyberduck.io/) for more information. Or for some [tips from SURF](https://userinfo.surfsara.nl/systems/shared/archiving-high-performance).
-
+Then input your password when prompted.
 
 
 ## Transferring data
+
+When transferring data; remember that the tape system is not instant and your files will get stored distributed across their system. For this reason if you want to store lots of small files the these need to be collected together into a tar archive beforehand.
+
 ### Using command line
 
 
@@ -96,7 +110,7 @@ Cyberduck is the recommended GUI for file transfer with the Data Archive. See th
 
 
 
-When using the GUI for file transfer between the servers be sure to open two separate windows with separate connections.
+When using the GUI for file transfer between servers be sure to open two separate windows with separate connections.
 
 
 
