@@ -21,6 +21,8 @@ keypoints:
 4. [Connecting](#connecting)
 5. [Transferring Data](#transferring-data)
 
+<img src="../img/data_lifecycle.png" width="400px" height="400px">    
+
 
 ## Overview
 
@@ -102,15 +104,16 @@ Then input your password when prompted.
 
 When transferring data; remember that the tape system is not instant and your files will get stored distributed across their system. For this reason if you want to store lots of small files the these need to be collected together into a tar archive beforehand.
 
-### Using command line
-
-
 
 ### Using a GUI
 
 
 
-When using the GUI for file transfer between servers be sure to open two separate windows with separate connections.
+When using the GUI for file transfer between servers be sure to open two separate windows with separate connections. This is the easiest method of data transfer, but also the slowest as there is no way to stage your data before making the transfer.
+
+
+### Using command line
+
 
 
 
