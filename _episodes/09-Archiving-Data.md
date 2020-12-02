@@ -21,7 +21,7 @@ keypoints:
 4. [Connecting](#connecting)
 5. [Transferring Data](#transferring-data)
 
-<img src="../img/data_lifecycle.png" width="400px" height="400px">    
+<img src="../img/data_lifecycle.png" width="600px">    
 
 
 ## Overview
