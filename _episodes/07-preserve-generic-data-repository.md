@@ -59,6 +59,8 @@ Open Access here means that datasets are made freely accessible either instantly
 ## 1.2 Open and public data
 Open access does not necessary imply that all datasets are made public directly after upload to the data repository. Rather, these datasets should be made accessible and indicate on which conditions these can be used by others (i.e. license).    
 
+Taken from the EU FOSTER portal
+
 > ## Question
 > What would be a real-life example of a dataset that should be made accessible (open) but not public (keep private)?   
 > Can you name a few examples?

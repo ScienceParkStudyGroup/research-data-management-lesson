@@ -3,17 +3,17 @@ title: "Introduction"
 teaching: 30
 exercises: 0
 questions:
-- ""
-- "What is the Research Data Life Cycle?"
-- "What are the main steps of this Research Data Life Cycle?"
+- "What is considered research data?"
+- "What is the Research Data Life Cycle and its main steps?"
 - "How do you define Research Data Management?"
 - "What are the main concepts that I will learn during this workshop?"
 - "How will it help me to make my research more accessible and reproducible for me and others?"
 - "Where can I get some help at my local institution?"
 objectives:
-- "Be capable of listing the main steps of the Research Data Life Cycle: create, process, analyse, preserve, give access, re-use."
+- "Be capable of listing the main steps of the Research Data Life Cycle."
 - ""
 keypoints:
+- "The main steps of the Research Data Life Cycle are: plan, create, process, analyse, preserve, give access, re-use."
 - "Research Data are generated once but can be re-used extensively."
 - "Research Data Management encompass the whole Research Data Life Cycle."
 ---
@@ -23,15 +23,15 @@ keypoints:
 <!-- MarkdownTOC autolink="True" -->
 
 - [1. What you will learn in this lesson](#1-what-you-will-learn-in-this-lesson)
-- [2. What are research data?](#2-what-are-research-data)
-    - [2.1 Warm-up](#21-warm-up)
-- [3. The Research Data Life Cycle](#3-the-research-data-life-cycle)
-    - [3.1 The Research Data Life Cycle in one scheme](#31-the-research-data-life-cycle-in-one-scheme)
-    - [3.2 The Research Data Life Cycle in a small movie \(5min\)](#32-the-research-data-life-cycle-in-a-small-movie-5min)
-- [4. Research Data Management \(RDM\)](#4-research-data-management-rdm)
-    - [4.1 Rationale](#41-rationale)
-    - [4.1 Quick definition in a small movie \(5min\)](#41-quick-definition-in-a-small-movie-5min)
-- [5. Wageningen RDM course](#5-wageningen-rdm-course)
+- [2. What is the Research Data Life Cycle?](#2-what-is-the-research-data-life-cycle)
+    - [2.1 Research data.](#21-research-data)
+- [2.2. The Research Data Life Cycle](#22-the-research-data-life-cycle)
+- [3. Research Data Management \(RDM\)](#3-research-data-management-rdm)
+    - [3.1 Rationale](#31-rationale)
+    - [3.2 Quick definition in a small movie \(5min\)](#32-quick-definition-in-a-small-movie-5min)
+- [4. Getting help from you local institution](#4-getting-help-from-you-local-institution)
+    - [4.1 At the University of Amsterdam](#41-at-the-university-of-amsterdam)
+- [6. Wageningen RDM course](#6-wageningen-rdm-course)
 - [Resources](#resources)
 
 <!-- /MarkdownTOC -->
@@ -40,22 +40,29 @@ keypoints:
 # 1. What you will learn in this lesson
 
 1. **How do you define the Research Data Life Cycle?** 
-    - What are the main steps ?  
+    - What is considered research data?
+    - What are the main steps?  
     - What can I do to preserve and reuse my research data?.
     - What are biological replicates and why are they important?
-1. **What concepts and practices are comprised in Research Data Management?** 
-    - What is the life cycle of a research dataset?  
+2. **What concepts and practices are comprised in Research Data Management?** 
+    - Definition.
     - What can I do to preserve and reuse my research data?.
     - What are biological replicates and why are they important?
-1. **Why should you care about Research Data Management in general?**
+3. **Why should you care about Research Data Management in general?**
     - Protect your valuable datasets for you, your team, other scientits and society in general.
     - Speed up your research findings by avoiding time loss when performing data-related tasks (saving, retrieving or analysing data).  
     - Funders are increasingly requiring good data management practices to grant proposals. 
     - Enhance your scientific reputation by showing that you embrace best practices on data management.  
+    - Some if not all of these good practices might become _de facto_ standards in the future.  
+4. **Where do get help at your local institution?**
+    - At the University of Amsterdam.
+    - In the Netherlands.
+    - In Europe. 
+    - Rest of the world. 
 
-# 2. What are research data? 
+# 2. What is the Research Data Life Cycle? 
 
-## 2.1 Warm-up 
+## 2.1 Research data.
 
 > ## Discussion
 > Pair up with someone in the workshop and try to define potential research data that you know.  
@@ -92,27 +99,26 @@ __Field notes__
 
 
 
-# 3. The Research Data Life Cycle
+# 2.2. The Research Data Life Cycle
 
 Every piece of research 
 
-## 3.1 The Research Data Life Cycle in one scheme 
 
-In this scheme, you can find the main steps of the Research Life Cycle. 
+__Scheme of the Research Life Cycle.__ 
 
 <img src="../img/data_lifecycle.png" width="600px" alt="The Research Data Life Cycle" >
 
 
-## 3.2 The Research Data Life Cycle in a small movie (5min)
+__Definition in a small movie (5min).__
 The University of Ghent has assembled a collection of knowledge clip. Here's the one on the Research Data Life Cycle:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OL_Vd9dd-AQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
-# 4. Research Data Management (RDM)
+# 3. Research Data Management (RDM)
 
-## 4.1 Rationale
+## 3.1 Rationale
 
 The main rationales for engaging in better Research Data Management (RDM) are:
 
@@ -122,11 +128,18 @@ The main rationales for engaging in better Research Data Management (RDM) are:
 4. To improve your scientific reputation and career outcome: even unpublished, you can be cited for the data you've generated and be acknowledged. Also, embracing good practices in RDM 
 5. To ease the sharing of data in both short- and long-term perspectives: you know where your data is located, what are the conditions to access it, how your data is formatted, etc. 
 
-## 4.1 Quick definition in a small movie (5min)
+## 3.2 Quick definition in a small movie (5min)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bbsLmy3Njv4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# 5. Wageningen RDM course
+# 4. Getting help from you local institution
+
+## 4.1 At the University of Amsterdam
+
+The library hosts a Research Data Management helpdesk...
+
+<!-- 
+# 6. Wageningen RDM course
 
 Programme
 
@@ -150,7 +163,7 @@ Part 3: How to make your data future-proof. At the end of part 3 you will:
     - know how to prepare a dataset for submission to a repository;
     - be familiar with the data management requirements, support and services at WUR;
     - have completed a draft data management plan for your project.
-
+ -->
 
 
 # Resources
@@ -158,6 +171,6 @@ Part 3: How to make your data future-proof. At the end of part 3 you will:
 - University of Amsterdam (NL) [Research Data Management resource](https://rdm.uva.nl/en/introduction/rdm-introduction.html).
 - University of Ghent (BE) Data Stewards [Youtube channel](https://www.youtube.com/channel/UCYKOuXl0zNJ9QHt-HrlpZmg).
 - University of Wageningen (NL) [Data Competence Center](https://www.wur.nl/en/Value-Creation-Cooperation/WDCC/Data-Management-WDCC.htm).
-- [The Open Science Training Handbook]
+- The Open Science Training Handbook
 
 {% include links.md %}

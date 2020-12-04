@@ -1,6 +1,6 @@
 ---
 layout: lesson
-authors: Marc Galland
+authors: Marc Galland, Frederick White
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
@@ -35,14 +35,14 @@ Finally, these RDM knowledge and practice can lead you to a new emerging profess
 >
 > 1. Consult what you need to do in the lesson [Setup](https://scienceparkstudygroup.github.io/rna-seq-lesson/setup.html).
 > 2. Read the workshop [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html) to make sure this workshop stays welcoming for everybody.
-> 3. Get comfortable: if you're not in a physical workshop, be set up with two screens if possible. You will be following along in RStudio on your own computer while also following this tutorial on your own.
-> 4. Although not strictly required, a basic command of the Shell will help you to follow some episodes on data archiving for instance. You can self-study the [Software Carpentry Unix Shell](http://swcarpentry.github.io/shell-novice/) lesson to fill this knowledge gap.
+> 3. Get comfortable: if you're not in a physical workshop, be set up with two screens if possible. You will be following along on your own computer while also following this tutorial on your own.
+> 4. Although not strictly required, a basic command of the Shell and R/RStudio will help you to follow some episodes on data archiving for instance. You can self-study the [Software Carpentry Unix Shell](http://swcarpentry.github.io/shell-novice/) and the [R and RStudio lesson](https://carpentries-incubator.github.io/open-science-with-r/) to fill these two knowledge gaps.
 > More instructions are available on the workshop website in the **Setup** section.
 {: .prereq}
 
 ## Citation
 If you make use of this material in some way (teaching, vocational training, research), please cite us:
-"Fredericke White and Marc Galland" (eds): "Research Data Management."  Version 2020.12.
+"Frederick White and Marc Galland" (eds): "Research Data Management."  Version 2020.12.
 
 ## Credits
 This lesson builds on many different resources from the University of Amsterdam or around the Internet. We are grateful to people active on Research Data Management and hope they can in turn build upon our own efforts. 
