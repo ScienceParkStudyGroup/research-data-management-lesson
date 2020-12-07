@@ -18,14 +18,14 @@ Finally, these RDM knowledge and practice can lead you to a new emerging profess
 
 ## Episode list
 
-* __1. Introduction: the Research Life Cycle__
-* __2. Plan: the Data Management Plan__ 
-* __3. Plan: the project and file management__ 
-* __4. Analyse: analysing data__
-* __5. Analyse: version control your data and workflow__
-* __6. Preserve: archiving data__
-* __7. Preserve: generic data repository. 
-* __8. Preserve: domain-specific data repository. 
+* __1. Introduction: the Research Life Cycle.__
+* __2. Plan: the Data Management Plan.__ 
+* __3. Plan: the project and file management.__ 
+* __4. Analyse: analysing data.__
+* __5. Analyse: version control your data and workflow.__
+* __6. Preserve: archiving data.__
+* __7. Preserve: generic data repository.__ 
+* __8. Preserve: domain-specific data repository.__ 
 * __9. Share: the metadata: data about the data.__ 
 * __10. Share: add a license to your data.__
 * __11. The FAIR principles.__
@@ -49,11 +49,11 @@ Finally, these RDM knowledge and practice can lead you to a new emerging profess
     - Funders are increasingly requiring good data management practices to grant proposals. 
     - Enhance your scientific reputation by showing that you embrace best practices on data management.  
     - Some if not all of these good practices might become _de facto_ standards in the future.  
-4. **Where do get help at your local institution?**
+4. **Where can you get help at your local institution?**
     - At the University of Amsterdam.
     - In the Netherlands.
     - In Europe. 
-    - Rest of the world. 
+    - In the rest of the world. 
 
 <br>
 

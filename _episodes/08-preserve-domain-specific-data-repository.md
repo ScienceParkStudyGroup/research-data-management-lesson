@@ -18,20 +18,20 @@ keypoints:
 <!-- MarkdownTOC autolink="True" -->
 
 - [1. Introduction](#1-introduction)
-    - [1.1 Definition of an open-access repository](#11-definition-of-an-open-access-repository)
-    - [1.2 Open and public data](#12-open-and-public-data)
+	- [1.1 Definition of an open-access repository](#11-definition-of-an-open-access-repository)
+	- [1.2 Open and public data](#12-open-and-public-data)
 - [2. Choosing a license](#2-choosing-a-license)
-    - [2.1 Why licensing your dataset?](#21-why-licensing-your-dataset)
-    - [2.2 Available licenses and their differences](#22-available-licenses-and-their-differences)
+	- [2.1 Why licensing your dataset?](#21-why-licensing-your-dataset)
+	- [2.2 Available licenses and their differences](#22-available-licenses-and-their-differences)
 - [3. Real-life example with Zenodo](#3-real-life-example-with-zenodo)
-    - [3.1](#31)
-    - [3.1 Zenodo](#31-zenodo)
+	- [3.1](#31)
+	- [3.1 Zenodo](#31-zenodo)
 - [4. FigShare](#4-figshare)
 - [5. Dryad](#5-dryad)
 - [4. Real-life exercise](#4-real-life-exercise)
 - [5. Resources](#5-resources)
-    - [5.1 Open-access repositories](#51-open-access-repositories)
-    - [5.2 Open data](#52-open-data)
+	- [5.1 Open-access repositories](#51-open-access-repositories)
+	- [5.2 Open data](#52-open-data)
 
 <!-- /MarkdownTOC -->
 
@@ -103,6 +103,7 @@ https://zenodo.org/communities/
 
 ## 5.1 Open-access repositories
 - [Zenodo Frequently Asked Questions](https://help.zenodo.org/)
+- [A general guide from Utrecht University](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data)
 
 
 ## 5.2 Open data
