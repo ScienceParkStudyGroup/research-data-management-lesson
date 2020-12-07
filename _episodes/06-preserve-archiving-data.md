@@ -26,15 +26,10 @@ keypoints:
 - [2. Tape Archive](#2-tape-archive)
 - [2. The SURFsara Data Archive](#2-the-surfsara-data-archive)
 - [3. How to archive data with SURF data archive](#3-how-to-archive-data-with-surf-data-archive)
-	- [Tools To Connect](#tools-to-connect)
-			- [_GUI_](#gui)
-			- [_Windows_](#windows)
-			- [_MacOS/Linux_](#macoslinux)
-	- [Connecting](#connecting)
-		- [Using a GUI](#using-a-gui)
-		- [Using command line/ssh client](#using-command-linessh-client)
+	- [3.1 Tools To Connect](#31-tools-to-connect)
+	- [3.2 Connecting to SURF data archive](#32-connecting-to-surf-data-archive)
 	- [Transferring data](#transferring-data)
-		- [Using a GUI](#using-a-gui-1)
+		- [Using a GUI](#using-a-gui)
 		- [Using command line](#using-command-line)
 - [References](#references)
 
@@ -93,7 +88,6 @@ The SURF organisation runs a [data archive service](https://www.surf.nl/en/secur
 Data stored on the archive is stored in two physical locations. This is much more secure, and can be accessed from any machine with an internet connection plus login credentials.  
 
 
-
 For example, the SURFsara data archive is located at two locations: one in Almere and one in Amsterdam within the Amsterdam Data Center which is a 72m-tall building with 13 floors (see below). 
 
 <figure class="figure">
@@ -104,59 +98,52 @@ For example, the SURFsara data archive is located at two locations: one in Almer
 
 Access to the data center is being checked through ID and fingerprints at the entrance. 
 
-<img src="../img/SURF_Security.jpg" width="300px" height="400px">
-
 <figure class="figure">
   <img src="../img/SURF_Security.jpg" alt="Security at the entrance of the Amsterdam Data Tower" width="600px">
   <figcaption><center>Identity check to enter the servers within the Amsterdam Data Tower</center> </figcaption>
 </figure>
+<br>
 
-SURFsara 
-
+SURFsara rents some space inside the tower to host its Tape Archive service. On the picture, you can see the magnetic tapes on the different rows. When requested, the tapes are read by a robot which stages them on a hard disk thereby allowing data to be read.  
     
-    
-<img src="../img/SURF_tape.jpg" width="400px" height="400px">    
+<figure class="figure">
+  <img src="../img/SURF_tape.jpg" alt="Security at the entrance of the Amsterdam Data Tower" width="400px">
+  <figcaption><center>The SURF tape archiver</center> </figcaption>
+</figure>
 
 
 # 3. How to archive data with SURF data archive 
 
-## Tools To Connect
+## 3.1 Tools To Connect
 
 The tools used for uploading/accessing/transferring are common for both data processing and managing archive data. 
 
-
 Some differ depending on operating systems.
 
-#### _GUI_
+__Cross-plaform tools with a GUI: Cyberduck and FileZilla__
 
+Some filemanagers have a Graphical User Interface (_GUI_) that can be installed on both Windows or Mac OS X operating systems. 
 Files can be transferred across the data processing/archiving systems using a GUI filemanager like [Cyberduck](https://cyberduck.io/) or [filezilla](https://filezilla-project.org/).
 
 
-
-#### _Windows_
+__Windows specific (choose one option):__
   - _SSH client_ [Mobaxterm](https://mobaxterm.mobatek.net/download.html) is recommended if you don't already have a preferred method.
-  - To use a windows 10 machine as if it were linux: _Windows subsystem for linux (WSL)_ - details on setting this up can be found [here](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10). _THIS IS NOT A NECESSARY STEP_. The above can be used instead.
+  - To use a Windows 10 machine as if it were linux: _Windows subsystem for linux (WSL)_ - details on setting this up can be found [here](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10). _THIS IS NOT A NECESSARY STEP_. The above can be used instead.
+
+__MacOS/Linux__
+  - _Terminal_ is built in for both Mac and Linux machines. It can be used as an ssh client.
 
 
+## 3.2 Connecting to SURF data archive 
 
-
-#### _MacOS/Linux_
-  - _Terminal_ is built in for both Mac and Linux machines. Can be used as an ssh client.
-
-
-
-## Connecting 
-
-### Using a GUI
-Cyberduck is the recommended GUI for file transfer with the Data Archive. See the [Cyberduck website](https://cyberduck.io/) for more information. Or for some [tips from SURF](https://userinfo.surfsara.nl/systems/shared/archiving-high-performance).
+__Using a GUI:__
+Cyberduck is the recommended GUI for file transfer with the SURF Data Archive. See the [Cyberduck website](https://cyberduck.io/) for more information. Or for some [tips from SURF](https://userinfo.surfsara.nl/systems/shared/archiving-high-performance).
 
 
 <img src="../img/Cyberduck_Connect.png" width="600px" height="400px">
 
 
-### Using command line/ssh client
-
-If using an ssh client on windows then you can input the required details to connect similarly to the GUI option.
+__Using command line/ssh client:__ If using an ssh client on windows then you can input the required details to connect similarly to the GUI option.
 
 <img src="../img/Mobaxterm_Connect.png" width="700px" height="450px">
 

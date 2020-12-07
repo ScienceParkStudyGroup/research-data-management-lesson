@@ -19,13 +19,41 @@ Finally, these RDM knowledge and practice can lead you to a new emerging profess
 ## Episode list
 
 * __1. Introduction: the Research Life Cycle__
-* __2. Project and file management__ 
-* __3. Data about the data: metadata__
-* __4. Controlled vocabularies and ontologies__
-* __5. Archiving data__:
-* __6. The FAIR principles in action__
-* __7. Data management plans__ 
-* __10. Licensing and citing data__
+* __2. Plan: the Data Management Plan__ 
+* __3. Plan: the project and file management__ 
+* __4. Analyse: analysing data__
+* __5. Analyse: version control your data and workflow__
+* __6. Preserve: archiving data__
+* __7. Preserve: generic data repository. 
+* __8. Preserve: domain-specific data repository. 
+* __9. Share: the metadata: data about the data.__ 
+* __10. Share: add a license to your data.__
+* __11. The FAIR principles.__
+* __12. Open Science: the big picture.__
+
+
+## What you will learn in this lesson
+
+1. **How do you define the Research Data Life Cycle?** 
+    - What is considered research data?
+    - What are the main steps?  
+    - What can I do to preserve and reuse my research data?.
+    - What are biological replicates and why are they important?
+2. **What concepts and practices are comprised in Research Data Management?** 
+    - Definition.
+    - What can I do to preserve and reuse my research data?.
+    - What are biological replicates and why are they important?
+3. **Why should you care about Research Data Management in general?**
+    - Protect your valuable datasets for you, your team, other scientits and society in general.
+    - Speed up your research findings by avoiding time loss when performing data-related tasks (saving, retrieving or analysing data).  
+    - Funders are increasingly requiring good data management practices to grant proposals. 
+    - Enhance your scientific reputation by showing that you embrace best practices on data management.  
+    - Some if not all of these good practices might become _de facto_ standards in the future.  
+4. **Where do get help at your local institution?**
+    - At the University of Amsterdam.
+    - In the Netherlands.
+    - In Europe. 
+    - Rest of the world. 
 
 <br>
 

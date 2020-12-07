@@ -1,11 +1,12 @@
 ---
-title: "Open-access repositories"
+title: "Generic open-access data repositories"
 teaching: 45
 exercises: 0 
 questions:
 - "What is an open-acess repository?"
 - "What is the difference between a generic and a domain-specific data repository?"
 - "What are examples of open-access repositories?"
+- "How can I upload my dataset to an open data repository?"
 objectives:
 - "Understand where generic open-access repositories stand in the research data life cycle."
 - "Be able to upload a dataset to one of the open-access repositories. "
@@ -18,20 +19,18 @@ keypoints:
 <!-- MarkdownTOC autolink="True" -->
 
 - [1. Introduction](#1-introduction)
-    - [1.1 Definition of an open-access repository](#11-definition-of-an-open-access-repository)
-    - [1.2 Open and public data](#12-open-and-public-data)
-- [2. Choosing a license](#2-choosing-a-license)
-    - [2.1 Why licensing your dataset?](#21-why-licensing-your-dataset)
-    - [2.2 Available licenses and their differences](#22-available-licenses-and-their-differences)
+	- [1.1 Definition of an open-access repository](#11-definition-of-an-open-access-repository)
+	- [1.2 Open and public data](#12-open-and-public-data)
 - [3. Real-life example with Zenodo](#3-real-life-example-with-zenodo)
-    - [3.1](#31)
-    - [3.1 Zenodo](#31-zenodo)
+	- [3.1 Short description of Zenodo](#31-short-description-of-zenodo)
+	- [3.2 Upload a dataset through a web interface](#32-upload-a-dataset-through-a-web-interface)
+	- [3.3 Programmatic upload using Python](#33-programmatic-upload-using-python)
 - [4. FigShare](#4-figshare)
 - [5. Dryad](#5-dryad)
 - [4. Real-life exercise](#4-real-life-exercise)
 - [5. Resources](#5-resources)
-    - [5.1 Open-access repositories](#51-open-access-repositories)
-    - [5.2 Open data](#52-open-data)
+	- [5.1 Open-access repositories](#51-open-access-repositories)
+	- [5.2 Open data](#52-open-data)
 
 <!-- /MarkdownTOC -->
 
@@ -70,27 +69,42 @@ Taken from the EU FOSTER portal
 > {: .solution}
 {: .challenge}
 
-# 2. Choosing a license
 
-## 2.1 Why licensing your dataset? 
-
-## 2.2 Available licenses and their differences
 
 # 3. Real-life example with Zenodo
 
-In this section, you will mimick a real-life example. You have just obtained statistics on 
-
-1. Download a test dataset. Description of the dataset
-2. If not already done, create an account on Zenodo. 
-
-Sandbox: Zenodo has a "sandbox" website that is made to test data upload 
-https://zenodo.org/communities/
+## 3.1 Short description of Zenodo
 
 
+## 3.2 Upload a dataset through a web interface  
 
-## 3.1 
+In this section, you will mimick a real-life example. You have just obtained statistics on a rabbit population.   
 
-## 3.1 Zenodo
+Download a test dataset. Description of the dataset
+
+If not already done, create an account on Zenodo. If you have a GitHub or an ORCID account you can use them to login. Otherwise, you will have to enter an email address and a valid password.  
+
+<img src="../img/07-zenodo-login.png" width="400px">
+
+Once logged in, you can then upload the test dataset by clicking on the "upload" button. 
+
+
+Sandbox: Zenodo has a "sandbox" website that is made to test data upload: access it [here](https://zenodo.org/communities/).
+
+
+## 3.3 Programmatic upload using Python
+
+While data upload using a web interface is convenient, it has a limited capacity whenever you have many files to upload. 
+If your internet connection also gets interrupted, it could be that your data upload will get interrupted. 
+
+An alternative is to log in a server (which stays on) and transfer your data from that server to Zenodo using its API (application programming interface). Zenodo API provides a set of actions that a user can perform to modify and alter the datasets without having to understand the ins and outs of the Zenodo file management system. 
+
+- Post HTTP method. 
+- Requests Python package for HTTP interface.
+- API ? + Location of the Zenodo API 
+- Access token generation
+- ipython interface + 
+
 
 # 4. FigShare
 
