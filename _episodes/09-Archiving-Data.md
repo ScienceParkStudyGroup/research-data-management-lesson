@@ -104,6 +104,21 @@ Then input your password when prompted.
 
 When transferring data; remember that the tape system is not instant and your files will get stored distributed across their system. For this reason if you want to store lots of small files the these need to be collected together into a tar archive beforehand.
 
+#### How to create a tar archive
+
+
+_Windows_
+
+No built in tarballing in windows. [7-zip](https://www.7-zip.org/) is currently recommended to add this functionality. A tutorial on how to use it can be found [here](https://dailydoseoftech.com/how-to-open-and-create-tar-files-on-windows/)
+
+
+
+_Mac/Linux/WSL_
+Using terminal: 
+
+tar -x
+
+
 
 ### Using a GUI
 
