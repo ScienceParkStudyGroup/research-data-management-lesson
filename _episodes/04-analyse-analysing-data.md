@@ -1,15 +1,19 @@
 ---
-title: "Data Management"
+title: "Analysing Data"
 teaching: 30
 exercises: 30
 questions:
-- "What can I learn by following this data management tutorial?"
-- "What are the tools that I will be using?"
+- "What happens to my data when I start analysing them?"
+- "What is the difference between raw and processed data?"
+- "How can I ensure the traceability of my results in regards to raw and processed data?"
+- "What is a scientific workflow manager?"
 objectives:
 - "Find out where to process large datasets and store research-data."
 - "Find out how to store data to be archived."
+- "How can I analyse a dataset using an HPC environment?"
 keypoints:
-- Genseq will be offline as of Januray 1st 2021. Be sure to transfer all data over to Crunchomics or the data archive before then!
+- "A workflow (e.g. an R script) link raw to processed data."
+- "A workflow is essential to keeping trace of the steps that a dataset underwent."
 
 ---
 
