@@ -31,6 +31,7 @@ keypoints:
 	- [Transferring data](#transferring-data)
 		- [Using a GUI](#using-a-gui)
 		- [Using command line](#using-command-line)
+	- [3.3 Archive Internal Data Transfer](#33-archive-internal-data-transfer)
 - [References](#references)
 
 <!-- /MarkdownTOC -->
@@ -120,10 +121,10 @@ The tools used for uploading/accessing/transferring are common for both data pro
 
 Some differ depending on operating systems.
 
-__Cross-plaform tools with a GUI: Cyberduck and FileZilla__
+__Cross-platform tools with a GUI: Cyberduck and FileZilla__
 
 Some filemanagers have a Graphical User Interface (_GUI_) that can be installed on both Windows or Mac OS X operating systems. 
-Files can be transferred across the data processing/archiving systems using a GUI filemanager like [Cyberduck](https://cyberduck.io/) or [filezilla](https://filezilla-project.org/).
+Files can be transferred across the data processing/archiving systems using a GUI filemanager like [Cyberduck](https://cyberduck.io/) or [filezilla](https://filezilla-project.org/) _Warning_ Filezilla not yet suitable for cross server transfer.
 
 
 __Windows specific (choose one option):__
@@ -164,21 +165,43 @@ Then input your password when prompted.
 
 ## Transferring data
 
-When transferring data; remember that the tape system is not instant and your files will get stored distributed across their system. For this reason if you want to store lots of small files the these need to be collected together into a tar archive beforehand.
+When transferring data; remember that the tape system is not instant and your files will get stored distributed across their system. For this reason if you want to store lots of small files then these need to be collected together into a tar archive beforehand.
+
+
+#### How to create a tar archive
+
+
+_Non-Command Line Interface_
+
+No built in tarballing in windows. [7-zip](https://www.7-zip.org/) is currently recommended to add this functionality. A tutorial on how to use it can be found [here](https://dailydoseoftech.com/how-to-open-and-create-tar-files-on-windows/). A 7-ZIp equivalent is also available for MAC, see the 7-zip link.
+
+_Mac/Linux/WSL_
+Using terminal: 
+
+~~~
+tar -cvf NEWFILENAME.tar path/to/originalfile
+~~~
+More details on tar can be found [here](https://www.tecmint.com/18-tar-command-examples-in-linux/)
 
 
 ### Using a GUI
 
 
 
-When using the GUI for file transfer between servers be sure to open two separate windows with separate connections. This is the easiest method of data transfer, but also the slowest as there is no way to stage your data before making the transfer.
+When using cyberduck for file transfer between servers be sure to open two separate windows with separate connections. This is the easiest method of data transfer, but also the slowest as there is no way to stage your data before making the transfer.
 
 
 ### Using command line
 
+At the command line there are a number of different ways to transfer data. Currently recommended by SURF is [rclone](https://rclone.org/commands/rclone_sync/). High performance transfer is available but needs to be setup on your local machine/server, info [here](https://userinfo.surfsara.nl/systems/shared/archiving-high-performance).
 
 
+## Archive Internal Data Transfer
 
+Transferring data between members of the group can be done using cyberduck. There is a shared folder for the group this can be accessed through cyberduck, all group members have access to this folder. In order to allow permissions to someone else copy or deposit your data here. The data manager can then ensure it is transferred to the correct account and delete it from shared folder. It is recommended to bookmark this folder within cyberduck, otherwise finding it is a bit tedious. In this example the shared folder is called whiteprj.
+
+
+<img src="../img/Path_To_Shared.png" width="200px" height="300px">
 
 
 
