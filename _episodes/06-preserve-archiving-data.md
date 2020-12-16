@@ -195,7 +195,7 @@ When using cyberduck for file transfer between servers be sure to open two separ
 
 At the command line there are a number of different ways to transfer data. Currently recommended by SURF is [rclone](https://rclone.org/commands/rclone_sync/). High performance transfer is available but needs to be setup on your local machine/server, info [here](https://userinfo.surfsara.nl/systems/shared/archiving-high-performance).
 
-Easy method: rsync.
+Easy method: [rsync](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories).
 Rsync is installed already. Currently you must log into crunchomics and "push" to the archive using the following command:
 
 ~~~
