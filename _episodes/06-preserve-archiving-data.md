@@ -9,7 +9,7 @@ questions:
 - "How can I connect and upload data to SURF Data Archive?"
 objectives:
 - "Find out what to do with non-research data and where to back up data."
-- "Be able to use the commadnConnect to SURF data archive."
+- "Be able to use the command line to connect to SURF data archive."
 - "Transfer data between your machine and the archive."
 keypoints:
 - "SURF data archive is to be used for larger files or a tar collection of smaller files and not for day to day access."
